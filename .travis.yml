@@ -14,6 +14,9 @@ deploy:
     secure: IcBf8u6jJiXbPk7xUHkqvRh7XxApEEojl+ULRDBtfPMxDgPv0HOxrxht+2BonzmDUbwN75DhcU4hw3tZMgI4Q9pAzOpmQD452FaFF8W2n0AxEiZ41t83vCmqHEv2rFhDOxi8abupbqLlCDcf1C2uy9QzAIKFrJytLJZjCYMiuUyUlCuxVEhVgGOkmWna7v1Jl7Jc/0qChV3V6bATFi0CeGNqakIR+RHHmuj2IqG91YBRZl882F7FzVggn5zZszJmA5vv2Nm8Y+L/k/AWJhTNYhKQKG933gLY08bKzyKRJC5k/WY0rEi01+8F29b3DATTkTCmMrP14lGoFVdDSJKFd/Pgt3PRArTMWmtsuqZ/jeipmw9FV6nVYQUVGlM3I1wKnCM3C51cZ5CRuG3XD7JptFWAxwXrEBS2VOnOvEq+LNZaN1FPhlEEQtxt0AjOK1gEkfX5Ow+QhLSIuUVx/lNZ4CnmN/PuJprFkCoK0iq+Pg9jmCKB53cqamKmv/qZhxfxBiDGooqIFQKhx2b+5AGuDge4XvfpfwUsQkTIDOkD18JEne2bUUAs3uJN3CnPtLz1GHup8QE/SKxWJQPtC2U8Qm4Yldua3HHA7QAPa1byB2I+YJWXKLbrLQp+2kPmYTbwnUYTr5gFs9F+qZomf6R6am81SzC9RhHXI3RWjvvsBSY=
   bucket: staging-bp-decommissioning
 before_script:
-- npm prune
+  - npm prune
 script:
-- npm run build
+  - npm run build
+after_success:
+  # deploy to AWS
+  - npm run deploy
