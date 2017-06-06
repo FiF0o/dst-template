@@ -1,0 +1,85 @@
+{
+  "title": "BP Workshop",
+  "nav": [
+    {"anchor": "Intro", "title": "Intro", "class": "intro", "href": "#intro"},
+    {"anchor": "Empathize", "title": "Empathize", "class": "one", "href": "#one"},
+    {"anchor": "Define", "title": "Define", "class": "two", "href": "#two"},
+    {"anchor": "Ideate", "title": "Ideate", "class": "three", "href": "#three"},
+    {"anchor": "Prototype", "title": "Prototype", "class": "four", "href": "#four"}
+  ],
+  "slides": [
+    {
+      "styles": {
+        "id": "intro",
+        "class": "style1 center"
+      },
+      "img": {
+        "src": "sunbury/DSC_2350.jpg",
+        "position": "30% 50%"
+      },
+      "copy": {
+        "headingOne": "BP - Wipro Digital Workshop",
+        "paragraph": "A multi-disciplinary team iteratively exploring BP decomissioning opportunities through the method of design thinking.<br />Collaboratively exploring and defining possible prototypes, to validate and test with customers, teams and consumers."
+      },
+      "actions": [
+        {"anchor": "Moving thinking to doing - your journey", "href": "#one", "class": "button next"}
+      ]
+    },
+    {
+      "styles": {
+        "id": "one",
+        "class": "style2 left"
+      },
+      "img": {
+        "src": "sunbury/DSC_2358.jpg",
+        "position": "center"
+      },
+      "copy": {
+        "headingTwo": "Empathize<br />User - Client - Colleague",
+        "paragraph": "Empathy is the cornerstone of a human-centered design process.<br />The Empathize phase focuses on the understanding of people, within the context of the challenges. This effort enabled the team to understand the way a chosen persona does things and why, including physical and emotional needs and what is meaningful to them."
+      }
+    },
+    {
+      "styles": {
+        "id": "two",
+        "class": "style2 left"
+      },
+      "img": {
+        "src": "sunbury/bp_0001_define.png",
+        "position": "left"
+      },
+      "copy": {
+        "headingTwo": "Define<br />(re)define the problem statement",
+        "paragraph": "The goal of the Define mode was to craft a meaningful and actionable problem statement. This a guiding statement focuses on insights and needs of a particular persona from the empathize phase. Collectively 18 Problem definition were created from the original opportunites in the format:"
+      }
+    },
+    {
+      "styles": {
+        "id": "three",
+        "class": "style2 left"
+      },
+      "img": {
+        "src": "sunbury/bp_0000_ideate.png",
+        "position": "left"
+      },
+      "copy": {
+        "headingTwo": "Ideate<br />No holds barred Idea generation",
+        "paragraph": "Ideate is the mode of the design phase in which the team concentrated on idea generation. Group voting secured the most pressing 4 problem statements as a combination of achievable, path of least resistance and Wow, we feel as though this would bring an exceptional opportunity to the market."
+      }
+    },
+    {
+      "styles": {
+        "id": "four",
+        "class": "style2 left"
+      },
+      "img": {
+        "src": "sunbury/bp_0002_prototype.png",
+        "position": "left"
+      },
+      "copy": {
+        "headingTwo": "Prototype<br />Make something",
+        "paragraph": "The Prototype phase is the iterative generation of artifacts, use cases intended to for the Persona to build out the idea connected with the problem statement."
+      }
+    }
+  ]
+}

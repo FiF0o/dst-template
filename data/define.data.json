@@ -1,0 +1,233 @@
+{
+  "title": "Define",
+  "logo": {
+    "href": "#two", "src": "swiss/icon-2-01.svg", "alt": "Define", "anchor": "Define"
+  },
+  "nav": {
+    "href": "#two"
+  },
+  "header": {
+    "headingOne": "As a <span contenteditable>.....</span> I want to <span contenteditable>.....</span> in order to <span contenteditable>.....</span>",
+    "paragraph": "During the workshop 18 Problem definitions were created from the original opportunites."
+  },
+  "tiles": [
+    {
+      "style": "style1",
+      "img": {
+        "src": "Define-8.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank",
+        "anchor": "<h2>(re)define</h2>"
+      }
+    },
+    {
+      "style": "style2",
+      "img": {
+        "src": "Define-7.jpg",
+        "alt": "Define Tool"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style3",
+      "img": {
+        "src": "Define-3.jpg",
+        "alt": "Define Map"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style4",
+      "img": {
+        "src": "Define-9.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style5",
+      "img": {
+        "src": "Define-10.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style6",
+      "img": {
+        "src": "Define-12.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style2",
+      "img": {
+        "src": "Define-13.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style3",
+      "img": {
+        "src": "Define-14.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style1",
+      "img": {
+        "src": "Define-16.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style4",
+      "img": {
+        "src": "Define-15.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank",
+        "anchor": "<h2>18 Opportunites</h2>"
+      }
+    },
+    {
+      "style": "style5",
+      "img": {
+        "src": "Define-19.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style6",
+      "img": {
+        "src": "Define-18.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style1",
+      "img": {
+        "src": "Define-17.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style2",
+      "img": {
+        "src": "Define-4.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style3",
+      "img": {
+        "src": "Define-25.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style6",
+      "img": {
+        "src": "Define-28.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style5",
+      "img": {
+        "src": "Define-5.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    },
+    {
+      "style": "style4",
+      "img": {
+        "src": "Define-22.jpg",
+        "alt": "Define"
+      },
+      "actions": {
+        "href": "https://drive.google.com/drive/folders/0By8LlR9KAcXCRkxNN2RoNXUyR1U",
+        "title": "Download on Google Drive",
+        "target": "_blank"
+      }
+    }
+  ]
+}

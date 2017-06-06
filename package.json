@@ -1,0 +1,38 @@
+{
+  "name": "design-thinking",
+  "version": "1.0.0",
+  "description": "Design Thinking Web Pages",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "preinstall": "mkdir public",
+    "clean": "rm -rf public && mkdir public",
+    "start": "npm run build && npm run open && npm run dev",
+    "open": "open 'http://localhost:63342/bp/public/index.html'",
+    "dev": "node_modules/.bin/onchange 'templates/**/*.mustache' 'data/**/*.json' -- npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cp:assets": "cp -R src/assets public/assets/",
+    "cp:images": "cp -r src/images public/images/",
+    "build:html": "mustache data/index.data.json src/templates/index.mustache > public/index.html",
+    "build:assets": "npm run cp:assets && npm run cp:images",
+    "build:styles": "echo '\nPLACEHOLDER FOR STYLES TASK\n'",
+    "build": "npm run build:html && npm run build:styles && npm run build:assets",
+    "// build:tiles": "mustache data/empathize.data.json templates/tiles.mustache > empathize/index.html; mustache data/define.data.json templates/tiles.mustache > define/index.html; mustache data/ideate.data.json templates/tiles.mustache > ideate/index.html;  mustache data/test.data.json templates/tiles.mustache > test/index.html; mustache data/iterate.data.json templates/tiles.mustache > iterate/index.html;",
+    "predeploy": "npm run clean",
+    "sync": "aws s3 sync public/ s3://staging-bp-decommissioning --region eu-west-2 --acl public-read --delete",
+    "deploy": "npm run build && npm run sync && open 'https://s3.eu-west-2.amazonaws.com/staging-bp-decommissioning/index.html'"
+  },
+  "keywords": [
+    "design",
+    "thinking"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "onchange": "3.2.1"
+  }
+}
