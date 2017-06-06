@@ -2,7 +2,6 @@
 
 # probably best to get a dist/public directory...
 index.html
-public/
 node_modules
 .idea
 .DS_Store
