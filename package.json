@@ -8,8 +8,9 @@
   },
   "scripts": {
     "clean": "rm -rf public && mkdir public",
-    "start": "npm run build && npm run open && npm run dev",
-    "open": "open 'http://localhost:63342/decomm/public/index.html'",
+    "server": "python -m SimpleHTTPServer 63342",
+    "start": "npm run build && npm run open && npm run dev && npm run server",
+    "open": "open 'http://localhost:63342/public/index.html'",
     "watch": "node_modules/.bin/onchange 'src/templates/**/*.mustache' 'data/**/*.json' 'src/sass/**/*.scss' -- npm run build",
     "dev": "npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1",
